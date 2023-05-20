@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:testing_fyp/login.dart';
+
+import 'package:testing_fyp/Views/weekly_timetable.dart';
 
 void main() {
   runApp(
@@ -9,7 +10,7 @@ void main() {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const LoginPage(),
+      home: const SetWeeklyTimetableView(),
     ),
   );
 }
