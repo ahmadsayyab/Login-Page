@@ -44,12 +44,24 @@ class MyHomePage extends StatelessWidget {
                 TableCell(
                   child: GestureDetector(
                     onTap: () {
-                      // Functionality for the second cell
+                      // Functionality for Cell 2
                       print('Cell 2 tapped');
                     },
                     child: Container(
                       padding: EdgeInsets.all(8.0),
                       child: Text('Cell 2'),
+                    ),
+                  ),
+                ),
+                TableCell(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Functionality for Cell 3
+                      print('Cell 3 tapped');
+                    },
+                    child: Container(
+                      padding: EdgeInsets.all(8.0),
+                      child: Text('Cell 3'),
                     ),
                   ),
                 ),
@@ -71,12 +83,24 @@ class MyHomePage extends StatelessWidget {
                 TableCell(
                   child: GestureDetector(
                     onTap: () {
-                      // Functionality for the fourth cell
+                      // Functionality for Cell 4
                       print('Cell 4 tapped');
                     },
                     child: Container(
                       padding: EdgeInsets.all(8.0),
                       child: Text('Cell 4'),
+                    ),
+                  ),
+                ),
+                TableCell(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Functionality for Cell 5
+                      print('Cell 5 tapped');
+                    },
+                    child: Container(
+                      padding: EdgeInsets.all(8.0),
+                      child: Text('Cell 5'),
                     ),
                   ),
                 ),

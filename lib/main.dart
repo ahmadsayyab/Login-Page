@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:testing_fyp/Views/weekly_timetable.dart';
+import 'package:testing_fyp/Views/course_outlines.dart';
 
 void main() {
   runApp(
@@ -10,7 +9,7 @@ void main() {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const SetWeeklyTimetableView(),
+      home: const UploadCourseOutlinesView(),
     ),
   );
 }
